@@ -1,0 +1,38 @@
+name: ml
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.10
+  - graphviz=2
+  - ipython
+  - ipywidgets
+  - ipympl
+  - jupyter
+  - jupyterlab
+  - matplotlib=3.7
+  - iminuit
+  - numdifftools
+  - notebook
+  - ipympl
+  - numpy
+  - pandas
+  - pip
+  - pydotplus
+  - pytables
+  - h5py
+  - python-graphviz
+  - scikit-image
+  - scikit-learn=1
+  - scipy
+  - seaborn
+  - tqdm
+  - xlrd
+  - pillow
+  - jupyter_contrib_nbextensions
+  - ctapipe=0.19
+  - pytorch
+  - torchvision
+  - pip:
+    - pytorch-gpu
